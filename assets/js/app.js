@@ -329,7 +329,7 @@ function updateOnUI(updatedObj) {
                                 <h5 class="m-0"><span class="badge ${setRating(updatedObj.movieRating)}">${updatedObj.movieRating}</span></h5>
                     </div>
                     <small>Release At: ${updatedObj.releaseDate} </small>
-                    <small class="updateDate">Updated At: ${updatedObj.updateDate} </small>
+                    <small class="updateDate show">Updated At: ${updatedObj.updateDate} </small>
 
                     <div class="card-body py-0">
                         <figure class="m-0">
