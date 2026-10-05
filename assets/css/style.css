@@ -68,7 +68,14 @@ body::before {
 .movieCard small {
     padding-left: 20px;
     font-weight: 600;
+}
 
+.movieCard .updateDate {
+    visibility: hidden;
+}
+
+.movieCard .updateDate.show {
+    visibility: visible;
 }
 
 .movieCard h4 {

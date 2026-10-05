@@ -150,7 +150,7 @@ function rendering(arr) {
                     <small>Release At: ${movie.releaseDate}</small>
                     ${
                       movie.updateDate
-                        ? `<small class="updateDate">Updated At: ${movie.updateDate}</small>`
+                        ? `<small class="updateDate show">Updated At: ${movie.updateDate}</small>`
                         : ""
                     }
 
@@ -227,7 +227,7 @@ function createDiv(newMovie) {
                                 <h5 class="m-0"><span class="badge ${setRating(newMovie.movieRating)}">${newMovie.movieRating}</span></h5>
                     </div>
                     <small>Release At: ${newMovie.releaseDate}</small>
-                    <small class="updateDate d-none">Updated At: </small>
+                    <small class="updateDate">Updated At: </small>
 
                     <div class="card-body py-0">
                         <figure class="m-0">
@@ -329,7 +329,7 @@ function updateOnUI(updatedObj) {
                                 <h5 class="m-0"><span class="badge ${setRating(updatedObj.movieRating)}">${updatedObj.movieRating}</span></h5>
                     </div>
                     <small>Release At: ${updatedObj.releaseDate} </small>
-                    <small class="updateDate d-none">Updated At: ${updatedObj.updateDate} </small>
+                    <small class="updateDate">Updated At: ${updatedObj.updateDate} </small>
 
                     <div class="card-body py-0">
                         <figure class="m-0">
